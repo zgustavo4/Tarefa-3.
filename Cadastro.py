@@ -17,7 +17,7 @@ def abrir_login():
     spr.Popen(["python", "login.py"])
 
 def login():
-    tk.messagebox.showwarning("Concluido")
+    tk.messagebox.showwarning("Concluido", "Concluido!!)
     
 
 opção=ctk.IntVar()
