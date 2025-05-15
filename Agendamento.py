@@ -15,7 +15,7 @@ def cancelar_agendamento():
     spr.Popen(["python", "cancelar.py"])
 
 def agendado():
-    tk.messagebox.showinfo("Concluido!!")
+    tk.messagebox.showinfo("Concluido!!", "Concluido!!")
 
 
 opção=ctk.IntVar()
