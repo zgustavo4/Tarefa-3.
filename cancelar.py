@@ -11,7 +11,7 @@ app.geometry("300x300")
 app.title("Cancelar")
 
 def cancelamento():
-    tk.messagebox.showwarning("Concluido")
+    tk.messagebox.showwarning("Concluido", "concluido")
 
 
 ctk.CTkLabel(app,text= "Cancele aqui: ").pack(pady=5)
